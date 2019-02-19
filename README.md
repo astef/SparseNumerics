@@ -1,4 +1,6 @@
-[![Build Status](https://dev.azure.com/stefurishin/SparseInteger/_apis/build/status/SparseInteger-CI?branchName=master)](https://dev.azure.com/stefurishin/SparseInteger/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/stefurishin/SparseInteger/_apis/build/status/SparseInteger-CI?branchName=master)](https://dev.azure.com/stefurishin/SparseInteger/_build/latest?definitionId=2&branchName=master) [![Nuget Package](https://img.shields.io/nuget/v/SparseInteger.svg)](https://www.nuget.org/packages/SparseInteger/)
+
+
 
 # SparseInteger
 
