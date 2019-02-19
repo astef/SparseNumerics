@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Numerics;
 using System.Runtime.InteropServices;
 
-namespace SparseInteger
+namespace SparseNumerics
 {
     /// <summary>
     /// An value of this type represents a non-negative integer that can be very large (like those that occur as

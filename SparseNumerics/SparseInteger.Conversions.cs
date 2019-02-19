@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Numerics;
 
-namespace SparseInteger
+namespace SparseNumerics
 {
     // Conversions to/from string and BigInteger, intended mostly for testing purposes.
     // See doc comments on the other part in SparseInteger.cs.

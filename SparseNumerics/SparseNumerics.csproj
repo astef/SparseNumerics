@@ -11,6 +11,7 @@
     <PackageTags>Math, BigInteger, binary</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.0.0-alpha</Version>
   </PropertyGroup>
 
 </Project>

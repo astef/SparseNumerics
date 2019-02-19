@@ -1,6 +1,6 @@
 using System;
 
-namespace SparseInteger
+namespace SparseNumerics
 {
     /// <summary>
     /// Contains utility methods for array manipulation.

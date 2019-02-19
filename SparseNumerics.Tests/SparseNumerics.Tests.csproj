@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SparseInteger\SparseInteger.csproj" />
+    <ProjectReference Include="..\SparseNumerics\SparseNumerics.csproj" />
   </ItemGroup>
 
 </Project>

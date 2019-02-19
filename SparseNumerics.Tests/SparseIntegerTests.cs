@@ -1,7 +1,7 @@
 using System.Numerics;
 using Xunit;
 
-namespace SparseInteger.Tests
+namespace SparseNumerics.Tests
 {
     /// <summary>Tests for <see cref="SparseInteger"/>.</summary>
     public sealed class SparseIntegerTests
