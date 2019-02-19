@@ -3,16 +3,30 @@ pool:
   
 variables:
   buildConfiguration: 'Release'
+  projectName: 'SparseInteger'
 
 steps:
 - script: |
     dotnet build --configuration $(buildConfiguration)
     dotnet test --configuration $(buildConfiguration) --logger trx
-    dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
+    
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
     testRunner: VSTest
     testResultsFiles: '**/*.trx'
 
-- task: PublishBuildArtifacts@1
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'pack'
+    configuration: $(buildConfiguration)
+    packagesToPack: '$(projectName)/$(projectName).csproj'
+    nobuild: true
+    versioningScheme: byBuildNumber
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'push'
+    nuGetFeedType: external
+    packagesToPush: '$(build.artifactStagingDirectory)/$(projectName).nupkg'
+    publishFeedCredentials: 'asdasd'
