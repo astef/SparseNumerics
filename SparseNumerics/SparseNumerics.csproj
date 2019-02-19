@@ -6,9 +6,11 @@
     <PackageProjectUrl>https://github.com/astef/SparseNumerics</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/astef/SparseNumerics/blob/master/LICENSE</PackageLicenseUrl>
     <Authors>Vladimir Reshetnikov, Alexander Stefurishin</Authors>
-    <Description>An integer stored as the positions of 1's in its binary form, useful for math with high power towers.</Description>
+    <Description>Numbers stored as the positions of 1's in their binary form, useful for math with power of 2 towers.
+
+Main type: SparseInteger</Description>
     <RepositoryUrl>https://github.com/astef/SparseNumerics</RepositoryUrl>
-    <PackageTags>Math, BigInteger, binary</PackageTags>
+    <PackageTags>SparseInteger, Math, BigInteger, binary, algebra, sparse</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Version>0.0.0-alpha</Version>
