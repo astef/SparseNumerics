@@ -17,6 +17,7 @@ steps:
     testResultsFiles: '**/*.trx'
 
 - task: DotNetCoreCLI@2
+  displayName: 'pack'
   inputs:
     command: 'pack'
     configuration: $(buildConfiguration)
@@ -25,6 +26,7 @@ steps:
     versioningScheme: byBuildNumber
 
 - task: DotNetCoreCLI@2
+  displayName: 'push'
   inputs:
     command: 'push'
     nuGetFeedType: external
