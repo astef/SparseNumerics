@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/stefurishin/SparseInteger/_apis/build/status/SparseInteger-CI?branchName=master)](https://dev.azure.com/stefurishin/SparseInteger/_build/latest?definitionId=1&branchName=master)
+
 # SparseInteger
 
 An value of this type represents a non-negative integer that can be very large (like those that occur as
