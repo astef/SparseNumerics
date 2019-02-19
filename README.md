@@ -2,7 +2,7 @@
 
 # SparseInteger
 
-An value of this type represents a non-negative integer that can be very large (like those that occur as
+A value of this type represents a non-negative integer that can be very large (like those that occur as
 numeric values of high power towers, much larger than those that can be represented by `BigInteger`
 within feasible memory limits), subject to a condition that either:
 
